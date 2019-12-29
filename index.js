@@ -3,7 +3,7 @@ const express = require('express');
 const app = express(); // generating singal express app 
 
 app.get('/', (req, res) => {
-    res.send({ hi : 'there'});
+    res.send({ hi : 'testing '});
 })
 
 //environment variable
